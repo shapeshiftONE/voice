@@ -19,3 +19,6 @@
 
 <img src="etc/homepage.png">
 
+<hr>
+
+<h3>Special thanks for the team @ <a href="https://github.com/getfider/fider" target="_blank">Fider</a> for this awesome platform to get us jumpstarted.</h3>
