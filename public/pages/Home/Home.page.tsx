@@ -89,7 +89,6 @@ What can we do better? This is the place for you to vote, discuss and share idea
         ) : (
           <PostsContainer posts={props.posts} tags={props.tags} countPerStatus={props.countPerStatus} />
         )}
-        <PoweredByFider className="lg:hidden xl:hidden mt-8" />
       </div>
     </div>
   )
