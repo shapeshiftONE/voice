@@ -57,6 +57,11 @@ const bootstrapApp = (i18n: I18n) => {
   )
 }
 
+if (window.location.protocol === 'http:') {
+  window.location.protocol = 'https:'
+   return;
+}
+
 const fider = Fider.initialize()
 __webpack_nonce__ = fider.session.contextID
 __webpack_public_path__ = `${fider.settings.assetsURL}/assets/`
